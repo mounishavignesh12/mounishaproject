@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    padding: 100px;
+}
+.team {
+    height: 150px;
+    width: 30%;
+    background-color: wheat;
+    padding: 20px;
+    margin-right: 20px;
+    float: left;
+}
+button{
+    cursor: pointer;
+    height: 100px;
+    width: 350px;
+    font-size: 32px;
+    padding: 100px;
+    margin-top: 50px;
+    background-color: yellow;
+    color: white;
+}
+
+.winner {
+    background-color: green;
+    color: black;
+}
