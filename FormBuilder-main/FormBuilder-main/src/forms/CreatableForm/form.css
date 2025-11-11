@@ -1,0 +1,30 @@
+.drop_area {
+    width: 100% !important;
+    height: 100px !important;
+    columns: #dcdcdc !important;
+    border: 2px dashed #dcdcdc !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+    opacity: 1 !important;
+    transition: all 0.2 ease-in-out !important;
+}
+
+.hide_drop {
+    opacity: 0 !important;
+}
+
+.initial_drop_area {
+    width: 100% !important;
+    height: 95% !important;
+    columns: #dcdcdc !important;
+    border: 2px dashed #dcdcdc !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+    opacity: 1 !important;
+    transition: all 0.2 ease-in-out !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
