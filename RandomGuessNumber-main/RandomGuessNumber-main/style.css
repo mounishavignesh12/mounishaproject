@@ -1,0 +1,56 @@
+body{
+    font-family: 'Fasthand', cursive;
+}
+.container {
+    background-color: rgb(23, 23, 22);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 8px 20px;
+}
+.logo {
+    font-size: 5em;
+    color: wheat;
+    text-shadow: -5px -5px 0 white,
+    2px -5px 0 red,
+    -5px 3px 0 yellow,
+    3px 3px 0 gray;
+}
+.button{
+    background-color: rgb(101, 192, 225);
+    color: white;
+    height: 60px;
+    width: 140px;
+    margin-top: 70px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 15px;
+}
+input{
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+    height: 1em;
+    margin: 30px;
+}
+
+#input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    margin-left: 45px;
+}
+#message {
+    display: none;
+    color: white;
+    font-family: 'Fasthand', cursive;
+    font-weight: 400;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>I have a number in my mind between 1 and 5 can you guess that too</h1>
+        <div class="input-container">
+            <input type="number" min="1" max="5" id="number-input">
+            <div class="button" id="submit">Submit</div>
+        </div>
+        <div id ="lives">10</div>
+        <div id="message">
+
+        </div>
+        <div>
+            <p id = "chace-loose"></p>
+        </div>
+        <div>
+            <button type="button"><a href="/Game/index.html" style="text-decoration: none;cursor: pointer;">Try again</a></button>
+        </div>
+        
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
